@@ -19,7 +19,6 @@
      margin-left: 600px;
      margin-right: 600px;
      margin-top: 26px;
-     /* margin-bottom: 386px; */
   }
   .hero-title-content{
     display: flex;
@@ -55,4 +54,118 @@
   color: #fff;
   font-size: 20px;
   font-weight: 600;
+}
+/* why section start here */
+.why-section{
+  width: 1140px;
+  height: 1440px;
+  margin: 0 auto;
+  margin-top: 74px;
+  border: 2px solid red;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.why-container{
+  width: 946px;
+  height: 1235px;
+  margin: 80px 97px 80px 97px;
+}
+.why-container-title{
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.why-container-title h1{
+  font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+}
+.why-container-title p{
+  font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.why-container-desk{
+  width: 946px;
+height: 1072px;
+margin-top: 48px;
+}
+.why-container-task-1-title h3{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.why-container-task-1-title p{
+  font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.why-btn{
+  padding: 12px 20px 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+}
+.why-btn a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(13, 19, 33);
+  
+}
+.why-container-task-1{
+  display: flex;
+  justify-content: space-between;
+  padding: 48px;
+}
+.why-container-task-2-title h3{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.why-container-task-2-title p{
+  font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.why-container-task-2{
+  display: flex;
+  gap: 32px;
+  padding: 48px;
+  margin-top: 30px;
+}
+.why-container-task-3{
+  display: flex;
+  justify-content: space-between;
+  padding: 48px;
+  margin-top: 30px;
+
+}
+.why-container-task-3-title h3{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.why-container-task-3-title p{
+  font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
 }
