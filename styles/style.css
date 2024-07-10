@@ -169,3 +169,44 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: left;
 }
+/* inspire section */
+.inspire-section{
+  width: 1140px;
+height: 777px;
+border: 2px solid red;
+margin: 0 auto;
+margin-top: 88px;
+}
+.inspire-section-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+.inspire-section-title h1{
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.inspire-section-title p{
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.inspire-vedio{
+  width: 1140px;
+height: 614px;
+}
+.inspire-vedio iframe {
+  width: 1076px;
+ height: 550px;
+ /* padding: 32px; */
+ border-radius: 16px;
+ margin-left: 32px;
+ margin-right: 32px;
+ margin-top: 32px;
+ margin-top: 32px;
+}
+
