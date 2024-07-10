@@ -209,4 +209,86 @@ height: 614px;
  margin-top: 32px;
  margin-top: 32px;
 }
+/* my target section */
+.myc-target-sec{
+  width: 1140px;
+height: 463px;
+border: 2px solid red;
+margin: 0 auto;
+margin-top: 149px;
+}
+.myc-target-sec-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.myc-target-sec-title h1{
+  text-align: center;
+  font-size: 32px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.myc-target-sec-title p{
+  text-align: center;
+  font-size: 16px;
+font-weight: 400;
+}
+.myc-target-details-container{
+  width: 1140px;
+height: 300px;
+margin-top: 20px;
+}
+.myc-target-details-1{
+  width: 364px;
+height: 300px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.myc-target-btn{
+  border: none;
+  background: none;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 35px;
+}
+.icon{
+  margin-left: 40px;
+  margin-top: 40px;
 
+}
+.title h4{
+  font-size: 24px;
+  font-weight: 800;
+  margin-left: 40px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.title p{
+  font-size: 16px;
+font-weight: 400;
+margin-left: 40px;
+}
+.myc-target-details-2{
+  width: 364px;
+  height: 300px;
+  border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+.myc-target-details-3{
+  width: 364px;
+  height: 300px;
+  border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
+.myc-target-details-container{
+  display: flex;
+  justify-content: space-between;
+}
+/* support section */
+.support-section{
+  width: 1140px;
+height: 314px;
+border: 2px solid red;
+}
