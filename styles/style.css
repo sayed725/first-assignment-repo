@@ -5,6 +5,54 @@
     font-variation-settings:
       "wdth" 100;
   }
-  .title{
-    font-size: xx-large;
+  
+  /* hero container */
+  .hero-container{
+    width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    background-image: url(../assets/Hero-bg.png);
   }
+  .hero-title-image img{
+    width: 240.28px;
+     height: 240px;
+     margin-left: 600px;
+     margin-right: 600px;
+     margin-top: 26px;
+     /* margin-bottom: 386px; */
+  }
+  .hero-title-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 221px;
+    margin-right: 221px;
+
+  }
+  .hero-title-content h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 26px;
+  }
+  .hero-title-content p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+.hero-btn{
+  text-align: center;
+  padding: 21px 24px 21px 24px;
+  border-radius: 8px;
+
+   background: rgb(13, 19, 33);
+}
+.hero-btn a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
